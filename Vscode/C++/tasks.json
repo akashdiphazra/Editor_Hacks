@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                // Build Settings
+                "-O",
+                "-g",
+                "-Wshadow",
+                "-Wall",
+                // Program or Directory name
+                "Test.cpp",
+                // Extra build Settings
+                "-O2",
+                "-Wno-unused-result",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+    ]
+}

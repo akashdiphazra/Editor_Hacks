@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Python",
+            "command": "myenv/Scripts/python.exe",
+            "args": [
+                "-i", "test.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/"
+            },
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "focus": true
+            }
+        }
+    ]
+}
