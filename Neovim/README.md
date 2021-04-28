@@ -18,6 +18,8 @@
 
 ## B. Installing Plugins
 
+### I am using [vim-plug](https://github.com/junegunn/vim-plug)
+
 #### 1. Uinx, Linux 
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
