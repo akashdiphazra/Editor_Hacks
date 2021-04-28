@@ -5,15 +5,15 @@
 
 ## A. Setting up neovim ##
 
-1. ``` sudo apt-get install neovim ```
+#### 1. ``` sudo apt-get install neovim ```
 
-2. ``` sudo apt-get install curl ```
+#### 2. ``` sudo apt-get install curl ```
 
-3. ``` sudo apt-get install git ```
+#### 3. ``` sudo apt-get install git ```
 
-4. ``` mkdir ~/.config/nvim   ```
+#### 4. ``` mkdir ~/.config/nvim   ```
 
-5. ``` touch ~/.config/nvim/init.vim   ```
+#### 5. ``` touch ~/.config/nvim/init.vim   ```
 
 
 ## B. Installing Plugins
