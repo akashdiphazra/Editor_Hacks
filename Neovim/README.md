@@ -1,4 +1,4 @@
-## Neovim ##
+## [Neovim](https://github.com/neovim/neovim) ##
 <p align="center">
   <img src="images/neovim_1.png" width="400"/>
 </p>
