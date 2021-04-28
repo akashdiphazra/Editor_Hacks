@@ -5,6 +5,8 @@
 
 ## A. Setting up neovim ##
 
+#### For Debian / Ubuntu
+
 #### 1. ``` sudo apt-get install neovim ```
 
 #### 2. ``` sudo apt-get install curl ```
