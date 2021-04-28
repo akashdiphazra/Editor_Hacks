@@ -9,7 +9,7 @@
 
 2. ``` sudo apt-get install curl ```
 
-3. ``` sudo apt-get install git ````
+3. ``` sudo apt-get install git ```
 
 4. ``` mkdir ~/.config/nvim   ```
 
