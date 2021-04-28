@@ -3,7 +3,7 @@
   <img src="images/neovim_1.png" width="400"/>
 </p>
 
-## Setting up neovim ##
+## A. Setting up neovim ##
 
 1. ``` sudo apt-get install neovim ```
 
@@ -15,5 +15,15 @@
 
 5. ``` touch ~/.config/nvim/init.vim   ```
 
-6. ``` nvim ~/.config/init.vim  ```
+
+## B. Installing Plugins
+
+#### 1. Uinx, Linux 
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+```
+
+2. ``` nvim ~/.config/init.vim  ```
 
