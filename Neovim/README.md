@@ -4,8 +4,8 @@
 </p>
 
 ## Setting Up ## 
-``` mkdir ~/.config/nvim   ```
+1. ``` mkdir ~/.config/nvim   ```
 
-``` touch ~/.config/nvim/init.vim   ```
+2. ``` touch ~/.config/nvim/init.vim   ```
 
-``` nvim ~/.config/init.vim  ```
+3. ``` nvim ~/.config/init.vim  ```
