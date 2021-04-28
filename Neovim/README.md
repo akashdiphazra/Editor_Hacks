@@ -5,7 +5,7 @@
 
 ## A. Setting up neovim ##
 
-#### For Debian / Ubuntu Linux
+#### For Ubuntu (Debian) Linux
 
 #### 1. ``` sudo apt-get install neovim ```
 
