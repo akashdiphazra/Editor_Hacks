@@ -3,9 +3,17 @@
   <img src="images/neovim_1.png" width="400"/>
 </p>
 
-## Setting Up ## 
-1. ``` mkdir ~/.config/nvim   ```
+## Setting up neovim ##
 
-2. ``` touch ~/.config/nvim/init.vim   ```
+1. ``` sudo apt-get install neovim ```
 
-3. ``` nvim ~/.config/init.vim  ```
+2. ``` sudo apt-get install curl ```
+
+3. ``` sudo apt-get install git ````
+
+4. ``` mkdir ~/.config/nvim   ```
+
+5. ``` touch ~/.config/nvim/init.vim   ```
+
+6. ``` nvim ~/.config/init.vim  ```
+
