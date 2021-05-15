@@ -10,19 +10,27 @@
             "request": "launch",
             "cwd": "${workspaceFolder}/",
             "program": "${workspaceFolder}/test.py",
+            //"program": "${file}",
             "args": [],
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "autoReload": {
+                "enable": true,
+            }
         },
-        // For External terminal
+        /* For External terminal */
         {
             "name": "Python: Current File (External Terminal)",
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}/",
             "program": "${workspaceFolder}/",
-            "console": "externalTerminal"
+            //"program": "${file}",
+            "console": "externalTerminal",
+            "autoReload": {
+                "enable": true,
+            }
         },
-        // For Flask 
+        /*  Flask Configuration */
         {
             "name": "Python: Flask",
             "type": "python",
@@ -41,7 +49,7 @@
             ],
             "jinja": true
         },
-        // For Django 
+        /*  Django Configuration */
         {
             "name": "Python: Django",
             "type": "python",
