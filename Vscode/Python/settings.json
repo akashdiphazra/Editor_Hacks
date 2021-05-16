@@ -119,6 +119,7 @@
     "python.analysis.diagnosticSeverityOverrides": {
         "reportGeneralTypeIssues": "warning",
         "reportUnboundVariable" : "information", 
+        "reportWildcardImportFromLibrary": "warning"
     }, 
     
     /* Python formatting settings */
