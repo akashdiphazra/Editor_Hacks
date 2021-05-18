@@ -30,16 +30,6 @@
     /*  Terminal Settings   */
     "terminal.integrated.fontSize": 15.5,
     "terminal.integrated.fontWeightBold": "normal",
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell",
-            "args": [
-                "-ExecutionPolicy",
-                "Bypass"
-            ]
-        }
-    },
     "workbench.colorCustomizations": {
         /*   Terminal */
         "terminal.foreground": "#c5ff07",
