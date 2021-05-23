@@ -11,6 +11,7 @@
                 "-g",
                 "-Wshadow",
                 "-Wall",
+                "-std=c++20",
                 // Program or Directory name
                 "Test.cpp",
                 // Extra build Settings

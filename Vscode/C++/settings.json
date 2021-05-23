@@ -16,12 +16,12 @@
     "editor.cursorBlinking": "blink",
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 3,
-
+    
     /* Themes, Icons and Fonts  Settings */
     "editor.fontLigatures": true,
     "editor.fontSize": 15.8,
     "editor.fontFamily": "'Source Code Pro Semibold', 'Courier New', monospace",
-    "editor.fontWeight": "bold",
+    //"editor.fontWeight": "bold",
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "Monokai",
     
@@ -34,8 +34,8 @@
     
     /*  Terminal Settings   */
     "terminal.integrated.fontSize": 15.5,
-    "terminal.integrated.fontWeightBold": "normal", 
-
+    "terminal.integrated.fontWeightBold": "normal",
+    
     "workbench.colorCustomizations": {
         // Terminal 
         "terminal.foreground": "#c5ff07",
@@ -92,6 +92,12 @@
         "[Monokai]": {
             "comments": "#d41986",
         }
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "ostream": "cpp",
+        "iomanip": "cpp"
     }
 }
 //Powershell 
