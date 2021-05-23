@@ -7,14 +7,16 @@
             "command": "g++",
             "args": [
                 // Build Settings
-                "-O",
-                "-g",
+                "-std=c++20",
+                "-Wsign-conversion",
+                "-Werror",
                 "-Wshadow",
                 "-Wall",
-                "-std=c++20",
+                "-g",
                 // Program or Directory name
                 "Test.cpp",
                 // Extra build Settings
+                "-O",
                 "-O2",
                 "-Wno-unused-result",
             ],
