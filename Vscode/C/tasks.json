@@ -10,6 +10,7 @@
                 "-g",
                 "-Wshadow",
                 "-Wall",
+                "-std=c17",
                 // Program or Directory name
                 "Test.c",
                 // Extra Settings

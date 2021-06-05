@@ -1,16 +1,15 @@
 {
     "configurations": [
         {
-            "name": "GCC",
+            "name": "G++",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/**",
-                "C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/**"
+                "C:/mingw64/include/c++/11.1.0/**"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}/**",
-                    "C:/MinGw/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/**"
+                    "C:/mingw64/include/c++/11.1.0/**"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
@@ -20,8 +19,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/MinGw/mingw64/bin/gcc.exe",
-            "cStandard": "c11",
+            "compilerPath": "C:/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
         }
