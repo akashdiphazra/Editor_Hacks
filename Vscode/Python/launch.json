@@ -23,7 +23,7 @@
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}/",
-            "program": "${workspaceFolder}/",
+            "program": "${workspaceFolder}/test.py",
             //"program": "${file}",
             "console": "externalTerminal",
             "autoReload": {
