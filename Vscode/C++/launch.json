@@ -10,12 +10,14 @@
             "request": "launch",
             "program": "${workspaceFolder}/a.exe",
             "args": [],
+            /* Passing input file to the arguement */
+            //"args": [ "<", "input.txt"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",

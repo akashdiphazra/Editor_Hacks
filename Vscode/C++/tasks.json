@@ -17,7 +17,7 @@
                 "-g",
                 // File_name or Directory name / File_name.cpp
                 "Test.cpp",
-                // Extra build Settings
+                //Extra build Settings
                 "-O",
                 "-O2",
                 "-Wno-unused-result",
