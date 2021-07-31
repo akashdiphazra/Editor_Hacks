@@ -12,6 +12,8 @@
             "args": [],
             /* Passing input file to the arguement */
             //"args": [ "<", "input.txt"],
+            /* For output file */
+            //"args": [ "<", "input.txt", ">", "output.txt"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

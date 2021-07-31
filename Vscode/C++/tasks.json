@@ -8,19 +8,19 @@
             "args": [
                 // Build Settings
                 "-std=c++20",
-                "-Wsign-conversion",
-                "-Wextra",
-                "-Werror",
-                "-Wshadow",
-                "-Wall",
-                "-m64",
+                // "-Wsign-conversion",
+                // "-Wextra",
+                // "-Werror",
+                // "-Wshadow",
+                // "-Wall",
+                // "-m64",
                 "-g",
                 // File_name or Directory name / File_name.cpp
                 "Test.cpp",
                 //Extra build Settings
-                "-O",
-                "-O2",
-                "-Wno-unused-result",
+                // "-O",
+                // "-O2",
+                //"-Wno-unused-result"
             ],
             "group": {
                 "kind": "build",
