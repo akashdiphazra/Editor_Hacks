@@ -1,0 +1,155 @@
+{
+    /* Windows Settings */
+    "window.zoomLevel": 1,
+    /* Window Customization */
+    "window.title": "${dirty}${activeEditorShort}${separator}$🐍{rootName}${separator}${appName}",
+    
+    /* Editor Settings  */
+    /* Tab Settings */
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    
+    /* Indentation and Brackets Settings */
+    "editor.detectIndentation": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.multiCursorModifier": "ctrlCmd",
+    //"editor.suggest.insertMode": "insert",
+    //"explorer.autoReveal": false,
+    
+    /* Cursor Settings */
+    "editor.cursorBlinking": "blink",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    
+    /* Themes, Icons and Fonts  Settings */
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15.8,
+    "editor.fontFamily": "'Source Code Pro Semibold', 'Courier New', monospace",
+    //"editor.fontWeight": "bold",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai",
+    
+    /* Sytax highlighting  */
+    "editor.copyWithSyntaxHighlighting": false,
+    "workbench.editor.wrapTabs": false,
+   
+    /*  Terminal Settings   */
+    "terminal.integrated.fontSize": 15.5,
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.fontWeightBold": "normal",
+    
+    /* Editor Configurations */
+    "workbench.colorCustomizations": {
+    
+        /*   Terminal */
+        "terminal.foreground": "#c5ff07",
+        "terminalCursor.background": "#0c0c0b",
+        "terminalCursor.foreground": "#c5ff07",
+        "terminal.ansiBlack": "#886314",
+        "terminal.ansiBlue": "#e0c01e",
+        "terminal.ansiBrightBlack": "#886314",
+        "terminal.ansiBrightBlue": "#e0c01e",
+        "terminal.ansiBrightCyan": "#05fff2",
+        "terminal.ansiBrightGreen": "#ad3cc4",
+        "terminal.ansiBrightMagenta": "#eb9d0c",
+        "terminal.ansiBrightRed": "#8168f5",
+        "terminal.ansiBrightWhite": "#D2E7E4",
+        "terminal.ansiBrightYellow": "#4761e6",
+        "terminal.ansiCyan": "#05fff2",
+        "terminal.ansiGreen": "#ad3cc4",
+        "terminal.ansiMagenta": "#eb9d0c",
+        "terminal.ansiRed": "#8168f5",
+        "terminal.ansiWhite": "#D2E7E4",
+        "terminal.ansiYellow": "#4761e6",
+    
+        // Title bars:-
+        // "titleBar.activeForeground": "#000",
+        // "titleBar.inactiveForeground": "#000000CC",
+        // "titleBar.activeBackground": "#ffe600",
+        // "titleBar.inactiveBackground": "#00ff15",
+    
+        // Status bars:-
+        // "statusBar.border": "#c5ff07",
+        "statusBar.background": "#8400ff",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingBackground": "#ff0162",
+        "statusBarItem.hoverBackground": "#5d4f69be",
+        "statusBarItem.activeBackground": "#6562689d",
+    
+        /* Tabs settings */
+        "tab.activeBorder": "#00c3ff",
+        "tab.activeBackground": "#445357",
+        "tab.activeForeground": "#c3ff00",
+        //"tab.inactiveBackground": "#738b92",
+    
+        // Remote Background 
+        "statusBarItem.remoteBackground": "#09ff00",
+        "statusBarItem.remoteForeground": "#030303",
+    
+        // Color Line Number 
+        "editorLineNumber.foreground": "#886b1afa",
+        "editorLineNumber.activeForeground": "#ffffff",
+    
+        // Activity bars
+        // "activityBar.background": "#ff0000", 
+        "activityBar.foreground": "#00c3ff",
+        "activityBar.inactiveForeground": "#04779b",
+        "activityBar.activeBackground": "#445357",
+        "activityBarBadge.background": "#c3ff00",
+        "activityBarBadge.foreground": "#000000",
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "comments": "#00ff6a",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "string.quoted.docstring.multi.python",
+                    ],
+                    "settings": {
+                        "foreground": "#00ff6a",
+                    }
+                }
+            ]
+        }
+    },
+    
+    /* Python Path */
+    "python.pythonPath": "myenv\\Scripts\\python.exe",
+    
+    /* Python Language Server settings */
+    "python.languageServer": "Pylance",
+    /* Type Checking and Error Values of Pylance  */
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportGeneralTypeIssues": "warning",
+        "reportUnboundVariable": "information",
+        "reportWildcardImportFromLibrary": "warning"
+    },
+    
+    /* Python formatting settings */
+    "python.formatting.provider": "black",
+    "python.formatting.autopep8Args": [
+        "--ignore",
+        "E402",
+        "E731"
+    ],
+    
+    /* Linting Settings (Don't required if you have pylance installed)  */
+    // "python.linting.flake8Enabled": true,
+    // "python.linting.flake8Args": ["--ignore=E24,W504, E501", "--verbose"],
+    /* Unit Testing   */
+    "python.testing.promptToConfigure": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+}
+
+/*  Powershell  */
+// Set-ExecutionPolicy RemoteSigned
+// Set-ExecutionPolicy Restricted
+// To delete command line history and delete only data not the txt file by editing it. 
+// (Get-PSReadlineOption).HistorySavePath
+// C:\Users\Akashdip Hazra\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
