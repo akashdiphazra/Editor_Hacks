@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "G++",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/mingw64/include/c++/10.3.0/**"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:/msys64/mingw64/include/c++/10.3.0/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
