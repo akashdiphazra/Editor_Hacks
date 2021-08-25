@@ -6,16 +6,16 @@
             "type": "shell",
             "command": "gcc",
             "args": [
-                "-O",
                 "-g",
-                "-Wshadow",
-                "-Wall",
+                // "-Wshadow",
+                // "-Wall",
                 "-std=c17",
                 // Program or Directory name
                 "Test.c",
+                "-O",
                 // Extra Settings
-                "-O2",
-                "-Wno-unused-result",
+                // "-O2",
+                // "-Wno-unused-result",
             ],
             "problemMatcher": [
                 "$gcc"
