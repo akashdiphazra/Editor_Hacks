@@ -66,7 +66,7 @@
         // "titleBar.inactiveForeground": "#000000CC",
         // "titleBar.activeBackground": "#ffe600",
         // "titleBar.inactiveBackground": "#00ff15",
-
+        
         // Selection Background Colors
         "list.activeSelectionBackground":"#2e585f",
         "list.inactiveSelectionForeground": "#c3ff009c",
