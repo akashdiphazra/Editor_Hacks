@@ -67,6 +67,14 @@
         // "titleBar.activeBackground": "#ffe600",
         // "titleBar.inactiveBackground": "#00ff15",
 
+        // Selection Background Colors
+        "list.activeSelectionBackground":"#2e585f",
+        "list.inactiveSelectionForeground": "#c3ff009c",
+        "list.activeSelectionForeground": "#c3ff00",
+        "list.inactiveSelectionBackground": "#364447",
+        //"list.hoverBackground": "#566e74",
+        //"list.hoverForeground": "#ff0000",
+        
         // Status bars:-
         // "statusBar.border": "#c5ff07",
         "statusBar.background": "#8400ff",
