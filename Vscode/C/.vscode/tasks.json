@@ -11,8 +11,11 @@
                 // "-Wall",
                 "-std=c17",
                 // Program or Directory name
+                "-Wall",
                 "Test.c",
-                "-O",
+                //"-O",
+                "-o",
+                "akash.exe"
                 // Extra Settings
                 // "-O2",
                 // "-Wno-unused-result",
