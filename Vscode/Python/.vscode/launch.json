@@ -54,6 +54,7 @@
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
+            "cwd": "${workspaceFolder}/",
             "program": "${workspaceFolder}/manage.py",
             "args": [
                 "runserver",
