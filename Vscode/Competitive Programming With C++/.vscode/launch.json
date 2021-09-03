@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "program": "${workspaceFolder}/a.exe",
+            "program": "${workspaceFolder}/akash.exe",
             // "args": [],
             /* Passing input file to the arguement */
             //"args": [ "<", "input.txt"],

@@ -37,12 +37,15 @@
 
     /* Sytax highlighting  */
     "editor.copyWithSyntaxHighlighting": false,
+    "editor.bracketPairColorization.enabled": true,
     "workbench.editor.wrapTabs": false,
 
     /*  Terminal Settings   */
-    "terminal.integrated.fontSize": 15.5,
-    "terminal.integrated.tabs.enabled": false,
+    //"terminal.integrated.gpuAcceleration": "auto",
     "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.fontSize": 15.5,
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.customGlyphs": false,
 
     /* Editor Configurations */
     "workbench.colorCustomizations": {
@@ -75,10 +78,10 @@
         // "titleBar.inactiveBackground": "#00ff15",
 
         // Selection Background Colors
-        "list.activeSelectionBackground":"#2e585f",
+        "list.activeSelectionBackground":"#1f3f46",
         "list.inactiveSelectionForeground": "#c3ff009c",
         "list.activeSelectionForeground": "#c3ff00",
-        "list.inactiveSelectionBackground": "#364447",
+        "list.inactiveSelectionBackground": "#364346",
         //"list.hoverBackground": "#566e74",
         //"list.hoverForeground": "#ff0000",
         
@@ -105,12 +108,14 @@
         "editorLineNumber.activeForeground": "#ffffff",
        
         /* Activity bars */
-        // "activityBar.background": "#ff0000", 
+        //"activityBar.background": "#ff0000", 
         "activityBar.foreground": "#00c3ff",
         "activityBar.inactiveForeground": "#04779b",
         "activityBar.activeBackground": "#445357",
         "activityBarBadge.background": "#c3ff00",
         "activityBarBadge.foreground": "#000000",
+        "activityBar.border": "#04779b",
+        "activityBar.activeBorder": "#c3ff00"
     },
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
