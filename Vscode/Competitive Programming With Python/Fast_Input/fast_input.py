@@ -4,18 +4,12 @@ from io import BytesIO, IOBase
 import os
 import sys
 
-
 BUFSIZE = 8192
 
 if sys.version_info[0] < 3:
     from __builtin__ import xrange as range
     from future_builtins import ascii, filter, hex, map, oct, zip
 
-
-def mi(): return map(int, input().strip().split(" "))
-def ii(): return int(input())
-def li(): return list(mi())
-inf = float("inf")
 
 def read():
     sys.stdin = open("input.txt", "r")
@@ -84,7 +78,10 @@ if sys.version_info[0] < 3:
     sys.stdin, sys.stdout = FastIO(sys.stdin), FastIO(sys.stdout)
 else:
     sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
+
 input = lambda: sys.stdin.readline().rstrip("\r\n")
+
+# endregion
 
 
 ###############################################################################################################3
