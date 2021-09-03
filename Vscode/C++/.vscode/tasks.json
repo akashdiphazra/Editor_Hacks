@@ -6,21 +6,26 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                // Build Settings
-                // "-std=c++20",
+                /* Build Settings */
+                "-std=c++20",
+                
+                /*Extra build Settings */
                 // "-Wsign-conversion",
                 // "-Wextra",
                 // "-Werror",
                 // "-Wshadow",
-                // "-Wall",
+                "-O2",
+                "-Wall",
                 // "-m64",
                 "-g",
-                // File_name or Directory name / File_name.cpp
-                "Test.cpp",
-                //Extra build Settings
-                // "-O",
-                // "-O2",
+                
+                /* File_name or Directory name / File_name.cpp */
                 // "-Wno-unused-result"
+                "Test.cpp",
+                "-o",
+                
+                /* program.exe */
+                "akash.exe"
             ],
             "problemMatcher": [
                 "$gcc"
