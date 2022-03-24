@@ -4,25 +4,30 @@
             "name": "G++",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/msys64/mingw64/include/c++/10.3.0/**"
+                "C:/msys64/mingw64/include/c++/11.2.0/**"
             ],
-            "browse": {
-                "path": [
-                    "${workspaceFolder}",
-                    "C:/msys64/mingw64/include/c++/10.3.0/**"
-                ],
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            },
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
+            "forcedInclude": [
+                "${default}",
+                "additional/paths"
+            ],
+            "compileCommands": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}",
+                "path": [
+                    "${default}"
+                    /* additional paths */
+                ]
+            },
+            "intelliSenseMode": "windows-gcc-x64",
             "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
             "cStandard": "c17",
-            "cppStandard": "c++20",
-            "intelliSenseMode": "gcc-x64"
+            "cppStandard": "c++20"
         }
     ],
     "version": 4
