@@ -13,9 +13,6 @@
             //"program": "${file}",
             "args": [],
             "console": "integratedTerminal",
-            "autoReload": {
-                "enable": true,
-            }
         },
         /* For External terminal */
         {
@@ -26,9 +23,6 @@
             "program": "${workspaceFolder}/test.py",
             //"program": "${file}",
             "console": "externalTerminal",
-            "autoReload": {
-                "enable": true,
-            }
         },
         /*  Flask Configuration */
         {
@@ -44,9 +38,12 @@
             },
             "args": [
                 "run",
-                "--no-debugger",
-                "--no-reload"
+                // "--no-debugger",
+                // "--no-reload"
             ],
+            "autoReload": {
+                "enable": true,
+            },
             "jinja": true
         },
         /*  Django Configuration */
@@ -55,11 +52,33 @@
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}/",
-            "program": "${workspaceFolder}/manage.py",
+            "program": "${workspaceFolder}/mywebsite/manage.py",
             "args": [
                 "runserver",
+                // "--no-debugger", 
+                // "--no-reload",  
+                "--nothreading"
             ],
-            "django": true
+            "autoReload": {
+                "enable": true,
+            },
+            "django": true,
         },
+        /* FastAPI Configuration and Other */
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/",
+            "module": "uvicorn",
+            "args": [
+                "test:app",
+                "--reload"
+            ],
+            "autoReload": {
+                "enable": true,
+            },
+            "jinja": true
+        }
     ]
 }

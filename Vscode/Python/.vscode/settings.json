@@ -1,6 +1,7 @@
 {
     /* Windows Settings */
     "window.zoomLevel": 1,
+    "window.title": "${dirty}${activeEditorShort}${separator}$🐍{rootName}${separator}${appName}",
 
     /* Editor Settings  */
 
@@ -26,7 +27,7 @@
 
     /* Themes, Icons and Fonts  Settings */
     "editor.fontLigatures": true,
-    "editor.fontSize": 15.8,
+    "editor.fontSize": 14,
     "editor.fontFamily": "'Source Code Pro Semibold', 'Courier New', monospace",
     //"editor.fontWeight": "bold",
     "workbench.iconTheme": "vscode-icons",
@@ -35,13 +36,17 @@
     /* Sytax highlighting  */
     "editor.copyWithSyntaxHighlighting": false,
     "editor.bracketPairColorization.enabled": true,
+    // "editor.guides.bracketPairs": "active",
+    // "editor.guides.bracketPairsHorizontal": "active",
     "workbench.editor.wrapTabs": false,
 
     /*  Terminal Settings   */
-    //"terminal.integrated.gpuAcceleration": "auto",
+    "terminal.integrated.tabs.title": "${process}",
+    "terminal.integrated.tabs.description": "${task}${separator}${local}${separator}${cwdFolder}",  
+    "terminal.integrated.gpuAcceleration": "auto",
     "terminal.integrated.fontWeightBold": "normal",
-    "terminal.integrated.fontSize": 15.5,
-    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.fontSize": 14.6,
+    "terminal.integrated.tabs.enabled": true,
 
     /* Editor Configurations */
     "workbench.colorCustomizations": {
@@ -67,6 +72,9 @@
         "terminal.ansiWhite": "#D2E7E4",
         "terminal.ansiYellow": "#4761e6",
 
+        /* Panel Border */
+        "panel.border":"#04779b",
+        
         /* Title bars */
         // "titleBar.activeForeground": "#000",
         // "titleBar.inactiveForeground": "#000000CC",
@@ -74,12 +82,17 @@
         // "titleBar.inactiveBackground": "#00ff15",
 
         // Selection Background Colors
-        "list.activeSelectionBackground":"#1f3f46",
-        "list.inactiveSelectionForeground": "#c3ff009c",
+        "list.activeSelectionBackground":"#16383f",
         "list.activeSelectionForeground": "#c3ff00",
         "list.inactiveSelectionBackground": "#364346",
-        //"list.hoverBackground": "#566e74",
+        "list.inactiveSelectionForeground": "#c3ff009c",
+        "list.activeSelectionIconForeground":"#c3ff00",
+        //"list.inactiveFocusBackground":"#ff0000",
+        "list.hoverBackground": "#314f57",
         //"list.hoverForeground": "#ff0000",
+    
+        /* Command Pallete */
+        "quickInputList.focusBackground": "#16383f",
         
         /* Status bars:- */
         // "statusBar.border": "#c5ff07",
@@ -91,6 +104,7 @@
        
         /* Tabs settings */
         "tab.activeBorder": "#00c3ff",
+        "tab.hoverBackground": "#133d49c9",
         "tab.activeBackground": "#445357",
         "tab.activeForeground": "#c3ff00",
         //"tab.inactiveBackground": "#738b92",
@@ -111,7 +125,7 @@
         "activityBarBadge.background": "#c3ff00",
         "activityBarBadge.foreground": "#000000",
         "activityBar.border": "#04779b",
-        "activityBar.activeBorder": "#c3ff00"
+        "activityBar.activeBorder": "#c3ff00"    
     },
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
@@ -128,10 +142,10 @@
             ]
         }
     },
-    /* Python Path */
-    "python.pythonPath": "myenv\\Scripts\\python.exe",
+
     /* Python Language Server settings */
     "python.languageServer": "Pylance",
+
     /* Type Checking and Error Values of Pylance  */
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.autoImportCompletions": true,
@@ -140,13 +154,17 @@
         "reportUnboundVariable": "information",
         "reportWildcardImportFromLibrary": "warning"
     },
+
+    /* Used to allow a user to specify a path to a directory that contains custom type stubs. Each package's */
+    "python.analysis.stubPath": "typings",
+    
     /* Python formatting settings */
     "python.formatting.provider": "black",
     "python.formatting.autopep8Args": [
         "--ignore",
         "E402",
         "E731"
-    ],
+    ]
 }
 /*  Powershell  */
 // Set-ExecutionPolicy RemoteSigned
@@ -154,3 +172,5 @@
 // To delete command line history and delete only data not the txt file by editing it. 
 // (Get-PSReadlineOption).HistorySavePath
 // C:\Users\Akashdip Hazra\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+// Update all pip package --> pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+
