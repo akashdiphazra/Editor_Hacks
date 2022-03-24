@@ -8,7 +8,7 @@
             "args": [
                 /* Build Settings */
                 "-std=c++17",
-
+                "-std=gnu++17",
                 /* Extra build Settings */
                 // "-Wsign-conversion",
                 // "-Wextra",
