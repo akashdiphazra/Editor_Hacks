@@ -1,4 +1,6 @@
 # Link --> https://github.com/cheran-senthil/PyRival/tree/master/templates
+# Link --> https://github.com/cheran-senthil/PyRival
+# Link -> https://codeforces.com/profile/c1729
 from __future__ import division, print_function
 from io import BytesIO, IOBase
 import os
@@ -16,10 +18,13 @@ def read():
     sys.stdout = open("output.txt", "w")
 
 
+BUFSIZE = 8192
+
 class FastIO(IOBase):
     newlines = 0
 
     def __init__(self, file):
+        self._file = file
         self._fd = file.fileno()
         self.buffer = BytesIO()
         self.writable = "x" in file.mode or "r" not in file.mode
@@ -60,28 +65,11 @@ class IOWrapper(IOBase):
         self.readline = lambda: self.buffer.readline().decode("ascii")
 
 
-def print(*args, **kwargs):
-    """Prints the values to a stream, or to sys.stdout by default."""
-    sep, file = kwargs.pop("sep", " "), kwargs.pop("file", sys.stdout)
-    at_start = True
-    for x in args:
-        if not at_start:
-            file.write(sep)
-        file.write(str(x))
-        at_start = False
-    file.write(kwargs.pop("end", "\n"))
-    if kwargs.pop("flush", False):
-        file.flush()
-
-
-if sys.version_info[0] < 3:
-    sys.stdin, sys.stdout = FastIO(sys.stdin), FastIO(sys.stdout)
-else:
-    sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
-
+sys.stdin, sys.stdout = IOWrapper(sys.stdin), IOWrapper(sys.stdout)
 input = lambda: sys.stdin.readline().rstrip("\r\n")
 
 # endregion
+
 
 
 ###############################################################################################################3
